@@ -4,6 +4,9 @@
 # http://qiita.com/Jxck_/items/d329aa5c9b50519dcfaf
 # https://github.com/toocheap/TechMemos/blob/master/spdylay_memo.md
 
+# install by brew
+brew install cunit libxml2 libtool autoconf automake openssl zlib
+
 if [ -e /usr/lib/pkgconfig/zlib.pc ]; then
 echo "already has zlib pkgconfig"
 else
